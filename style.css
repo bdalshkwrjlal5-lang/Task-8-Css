@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+/* Navbar 1 */
+.navbar {
+  background-color: #040c18;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.menu a:hover {
+  color: #6366f1;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.auth a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.auth a:hover {
+  color: #ff4820;
+}
+
+.btn {
+  background-color: #ff4820;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #e2e8f0;
+  color: #040c18;
+}
+
+/* Navbar 2 */
+.second {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  margin-top: 20px;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title span {
+  color: #ef4444;
+}
+
+.links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.links a {
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.links a:hover {
+  color: #ef4444;
+}
+
+.line {
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+  width: 60px;
+  height: 4px;
+  background-color: #ef4444;
+}
+
+/* عناوين أقسام */
+.heading {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.dark {
+  background-color: #161616;
+  padding: 40px 0;
+}
+
+.boxes {
+  display: flex;
+  gap: 16px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #262626;
+  flex: 1;
+  padding: 30px 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-8px);
+  background-color: #1e1b4b;
+}
+
+.num {
+  color: #22c55e;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.box .label {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.box .text {
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+/*  مزايا */
+.features {
+  padding: 30px 0 60px;
+}
+
+.items {
+  display: flex;
+  gap: 16px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  flex: 1;
+  padding: 30px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #16a34a;
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #6366f1;
+}
+
+.icon {
+  font-size: 28px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info .label {
+  font-size: 16px;
+}
+
+.info .text {
+  color: #6b7280;
+  font-size: 14px;
+}
